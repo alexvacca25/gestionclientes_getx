@@ -31,8 +31,29 @@ Map<String, dynamic> cli = {
       "https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166_1280.jpg"
 };
 
+Map<String, dynamic> cli1 = {
+  "nombre": "Maria",
+  "apellido": "Diaz",
+  "edad": 23,
+  "estado": false,
+  "foto":
+      "https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166_1280.jpg"
+};
+
+Map<String, dynamic> cli2 = {
+  "nombre": "Pedro",
+  "apellido": "Perez",
+  "edad": 32,
+  "estado": true,
+  "foto":
+      "https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166_1280.jpg"
+};
+
 List<Cliente> listaclientes = [
   Cliente.crear(cli),
+  Cliente.crear(cli1),
+  Cliente.crear(cli2),
   Cliente.crear(cli),
-  Cliente.crear(cli),
+  Cliente.crear(cli1),
+  Cliente.crear(cli2),
 ];
